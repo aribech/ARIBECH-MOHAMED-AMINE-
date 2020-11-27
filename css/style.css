@@ -13,4 +13,11 @@ body {
 .profile-img{
     width: auto;
 
+
+}
+
+#about{
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #0f6674;
 }
