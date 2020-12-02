@@ -3,101 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>ARIBECH MOHAMED AMINE</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="js/bootstrap.min.js"></script>
-
-
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/759aed5170.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" >
-
-
 </head>
 <body>
 
-    <div class="container  pt-4 fixed-top">
-        <div class="row">
-            <div class="col-4  justify-content-center align-items-center">
-                <i class="fas fa-terminal fa-2x text-warning"></i>
-                <h3 class=" text-white d-inline" style="margin-left: 10px"> ARIBECH</h3>
-            </div>
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="#about" class="text-white navigation">ABOUT</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#experience" class="text-white navigation">EXPERIENCE</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#projet" class="text-white navigation">PROJECT</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="#study" class="text-white navigation">STUDIES</a>
-                    </div>
-                </div>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top ">
+    <a class="navbar-brand text-dark navigation" href="#first">
+        <i class="fas fa-terminal text-dark"></i> ARIBECH
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-dark navigation" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark navigation" href="#experiences">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark navigation" href="#">PROJECT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container" id="first">
+    <div class="row  justify-content-center align-items-center">
+        <div class="col-sm-5">
+            <img src="images/imageMCPC.jpg"  alt="ARIBECH MOHAMED AMINE">
+        </div>
+
+        <div class="col-sm-7">
+            <h3 class="text-white">Hello everyone!</h3>
+            <h2 class="text-warning"> I'm MOHAMED AMINE ARIBECH</h2>
+            <h3 class="text-white">Futur software engineer</h3>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="about">
+    <h1 class="text-warning pt-4 text-center">About Me</h1>
+    <div class="row justify-content-center">
+        <div class="col-8  text-white " style="padding-top: 50px">
+            <h3 class="m-heading">A little bit about me</h3>
+            <p>
+                I got my first diploma
+                <b class="text-warning">University Degree in Technology</b>
+                in software engineering in 2017 at Superior School of Technology SALE
+                and <b class="text-warning">Bachelor Degree in Mathematics and Computer Science</b>
+                in 2018 at Faculty of Sciences Rabat.
+            </p>
+            <p>
+                Now i'm an <b class="text-warning">engineering student</b> in Software Engineering and Integration of Computer Systems.
+                and I'm looking for <b class="text-warning">InernSheep</b> for my final project
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="images/Developper.svg" class="img-fluid " style="width: auto; height: 25rem" />
         </div>
     </div>
+</div>
 
-    <div class="container ">
-        <div class="row  justify-content-start align-items-center">
-            <div class="col-6 ">
-                <img src="images/imageMCPC.jpg"  class=" profile-img" alt="ARIBECH MOHAMED AMINE">
+<div class="container-fluid" id="experiences">
+
+    <h1 class="text-warning mb-3 pb-2 pt-4 text-center">Experiences</h1>
+    <div class="row">
+        <div class="col-4">
+            <div class="text-center">
+                <button class=" btn btn-outline-warning" data-toggle="collapse" data-target="#posteMaroc">
+                    Internsheep for 2 month</button>
             </div>
-            <div class="col-6  ">
-                <h3 class="text-white">Hello everyone!</h3>
-                <h2 class="text-warning"> I'm MOHAMED AMINE ARIBECH</h2>
-                <p class="text-white">Future engeneer</p>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- About Section -->
-    <div id="about" class="container  p-5">
-        <div class="row">
-
-            <div class="col-6  text-white">
-                <h3 class="text-warning">About Me</h3>
-                <h1 class="m-heading">A little bit about me</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-                    eligendi natus, ex maiores
-                    <b class="text-warning">quaerat provident</b> iusto tenetur vero
-                    ipsum. Beatae expedita obcaecati odio dignissimos itaque nulla
-                    voluptatum doloremque sed iusto!
+            <div id="posteMaroc" class="collapse text-white pt-2">
+                <p class="">
+                    From 13 April to 13 June 2020 at <b class="text-warning">POSTE MAROC</b>
                 </p>
-                <br />
+                <p>it was a second year internship for current formation</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-                    magni <b class="text-warning">adipisci sunt eum</b>, reprehenderit
-                    dignissimos quaerat maiores ad. Magni, totam iure. Doloribus ea
-                    <b class="text-warning">molestiae deleniti</b> excepturi iure neque,
-                    harum illum!
+                    <b class="text-warning">Mission:</b>
+                     Design and development of a web application (computerize the shipment deposit procedure)
                 </p>
-                <button class="btn btn-outline-warning">Learn More</button>
+                <p>
+                    <b class="text-warning">Tools and technologies:</b> ASP.NET MVC, SQLServer, Bootstrap
+                </p>
+
             </div>
-            <div class="col-6">
-                <img src="images/engineer.svg" class="img-fluid" />
+        </div> <div class="col-4">
+            <div class="text-center">
+                <button class=" btn btn-outline-warning" data-toggle="collapse" data-target="#inh">
+                    Internsheep for 2 month</button>
+            </div>
+            <div id="inh" class="collapse text-white pt-2">
+                <p class="">
+                    From 2 April to 28 May 2017 at <b class="text-warning">INH</b>
+                </p>
+                <p>it was an end of study internship for University Degree in Technology (DUT)</p>
+                <p>
+                    <b class="text-warning">Mission:</b>
+                    Design and development of a web application for managing staff
+                    holidays
+                </p>
+                <p>
+                    <b class="text-warning">Tools and technologies:</b> PHP , MySQL , Bootstrap
+                </p>
+            </div>
+        </div> <div class="col-4">
+            <div class="text-center">
+                <button class=" btn btn-outline-warning" data-toggle="collapse" data-target="#ormvag">
+                    Internsheep for 1 month</button>
+            </div>
+            <div id="ormvag" class="collapse text-white pt-2">
+                <p class="">
+                    From 2 May to 29 May 2016 at <b class="text-warning">ORMVAG</b>
+                </p>
+                <p>it was a traineeship</p>
+                <p>
+                    <b class="text-warning">Mission:</b>
+                    Development of a trainee management web application
+                    holidays
+                </p>
+                <p>
+                    <b class="text-warning">Tools and technologies:</b> ASP.NET, SQL Server
+                </p>
             </div>
         </div>
     </div>
+</div>
 
-
-    <footer>
-        <div class="container text-muted text-center py-3 mt-5">
-            <h5>
-                Copyright &copy; 2020 |<a class="text-warning text-decoration-none" href="#about">ARIBECH</a>
-            </h5>
-        </div>
-    </footer>
+<div class="container">
+    hhh
+    <p>hhh</p>
+    <p>hhh</p>
+    <p>hhh</p>
+    <p>hhh</p>
+    <p>hhh</p>
+</div>
 
 </body>
-</html>
